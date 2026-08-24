@@ -1,0 +1,23 @@
+{
+  "name": "lastmile-delivery-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["delivery", "logistics", "tracking"],
+  "author": "",
+  "license": "ISC",
+  "description": "Backend API for LastMile Delivery Tracker",
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.6",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.9.3"
+  }
+}
