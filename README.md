@@ -332,6 +332,3 @@ For Render deployment:
 
 ---
 
-## License
-
-ISC
